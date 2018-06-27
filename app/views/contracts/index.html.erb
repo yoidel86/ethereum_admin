@@ -33,7 +33,10 @@
 <%= link_to 'New Contract', new_contract_path %>
 
 <br>
-GAS PRICE : <%= @gas_price%>
+GAS PRICE : <%= @gas_price["result"]%>
+<br>
+BALANACE:<%=@balance%>
+
 <form action="conect" method="get" name="socket">
   <input type="text" name="account" id="account" class="form">
 </form>

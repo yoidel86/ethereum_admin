@@ -1,24 +1,7 @@
-# README
+# oraculux:ethereum-admin
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Administrador de un nodo ethereum sumando stacks, administracion de cuentas y administracion de contratos.
+Permite verificar saldos, bloques minados, revisar transacciones y ejecutar comandos de los contratos creados por el usuario. Permite desplegar nuevos contratos y monitoriarlos. Crear tokens ERC20 y realizar transacciones de los mismos
+Se integra con metamask del navegador donde se usa y funciona como Wallet.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
