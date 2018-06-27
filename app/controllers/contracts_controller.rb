@@ -9,7 +9,7 @@ class ContractsController < ApplicationController
     # geth attach ipc:\\.\pipe\geth.ipc
      client = Ethereum::IpcClient.new("\\\\.\\pipe\\geth.ipc", false)
     client2 = Ethereum::HttpClient.new('http://localhost:8545')
-    @balance =  client2.eth_get_balance "0x13C0127B66b336A644CC36C2E44EaDC5FCD8B79d"
+    @balance =  client2.eth_get_balance "0xCf3cC4A1211920fff9716b0343bFe978DbbAb8B1"
     @gas_price = client2.eth_gas_price
     puts @gas_price
 
